@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Catalog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 pb-24">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow px-6 py-4 flex justify-between items-center sticky top-0 z-50">
+    <a href="../index.html" class="text-xl font-bold text-blue-600">Sasta Shop System</a>
+    <div class="space-x-4">
+      <a href="products.html" class="bg-blue-500 text-white px-3 py-2 rounded">Products</a>
+      <a href="order.html" class="text-blue-500 hover:underline">Orders</a>
+      <a href="notifications.html" class="text-blue-500 hover:underline">Notifications</a>
+      <a href="register.html" class="text-blue-500 hover:underline">Register</a>
+      <button onclick="logout()" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Logout</button>
+    </div>
+  </nav>
+
+  <!-- Product Grid -->
+  <main class="container mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer class="fixed bottom-0 w-full bg-white text-center py-4 shadow-inner">
+    <p class="text-sm text-gray-500 mt-2">&copy; Built with ❤️‍🩹 by Uzair Ahmad</p>
+  </footer>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/products.js"></script>
+</body>
+</html>

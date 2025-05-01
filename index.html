@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Frontend User Service</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow px-6 py-4 flex justify-between items-center sticky top-0 z-50">
+    <a href="index.html" class="text-xl font-bold text-blue-600">Sasta Shop System</a>
+    <div class="space-x-4">
+      <a href="pages/products.html" class="text-blue-500 hover:underline">Products</a>
+      <a href="pages/order.html" class="text-blue-500 hover:underline">Orders</a>
+      <a href="pages/notifications.html" class="text-blue-500 hover:underline">Notifications</a>
+      <a href="pages/register.html" class="text-blue-500 hover:underline">Register</a>
+      <a href="pages/login.html" class="bg-blue-500 text-white px-3 py-2 rounded hover:bg-blue-600">Login</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-20 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl font-extrabold text-blue-800 mb-4">Welcome to the Online Shopping System</h1>
+      <p class="text-lg text-blue-700 mb-6">
+        A microservices-based ecommerce application that demonstrates real-world service communication and modular architecture.
+      </p>
+      <a href="pages/products.html" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-lg">
+        Browse Products
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">About the Project</h2>
+      <p class="text-gray-700 mb-4">
+        This project is developed as part of a university-level Software Engineering course. It simulates a complete e-commerce order processing system using a microservices architecture.
+      </p>
+      <p class="text-gray-700">
+        Each feature — authentication, product management, order processing, payment handling, shipping, and user notifications — is handled by its own Dockerized microservice, all communicating via REST APIs.
+      </p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div class="bg-white shadow p-6 rounded">
+        <h3 class="font-bold text-lg mb-2">Modular Design</h3>
+        <p class="text-gray-600">Each microservice is independently deployable and scalable, ensuring flexibility in development and deployment.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded">
+        <h3 class="font-bold text-lg mb-2">RESTful Communication</h3>
+        <p class="text-gray-600">Services interact using well-structured REST APIs, promoting clear boundaries and responsibility separation.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded">
+        <h3 class="font-bold text-lg mb-2">Containerized</h3>
+        <p class="text-gray-600">All services are containerized with Docker, making it easy to simulate deployment environments and maintain consistency.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="fixed bottom-0 w-full bg-white text-center py-4 shadow-inner">
+    <p class="text-sm text-gray-500 mt-2">&copy; Built with ❤️‍🩹 by Uzair Ahmad</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

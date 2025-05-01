@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+header, footer {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+button {
+  padding: 10px 15px;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+input {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+}
