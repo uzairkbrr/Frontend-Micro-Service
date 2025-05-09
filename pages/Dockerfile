@@ -5,7 +5,7 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your index.html to the Nginx html directory
-COPY index.html /usr/share/nginx/html/index.html
+COPY notifications.html /usr/share/nginx/html/index.html
 
 # Document that the container listens on port 80
 EXPOSE 80
