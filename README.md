@@ -4,27 +4,24 @@ This repository contains the frontend of the MIS (Management Information System)
 
 ## 🌐 Live Preview
 
-Access the deployed UI here:  
-🔗 [https://frontend-mis.netlify.app/](https://frontend-mis.netlify.app/)
+Access the deployed UI here: [Live Preview](https://frontend-mis.netlify.app/)
 
 ## 📄 Pages Overview
 
 The application includes the following pages:
 
-1. **Homepage**  [https://frontend-mis.netlify.app/](https://frontend-mis.netlify.app/)
-2. **Login**  [https://frontend-mis.netlify.app/pages/login.html](https://frontend-mis.netlify.app/pages/login.html)
-3. **Register**  [https://frontend-mis.netlify.app/pages/register](https://frontend-mis.netlify.app/pages/register)
-4. **Products**  [https://frontend-mis.netlify.app/pages/products](https://frontend-mis.netlify.app/pages/products)
-5. **Order**  [https://frontend-mis.netlify.app/pages/order](https://frontend-mis.netlify.app/pages/order)
-6. **Notifications**  [https://frontend-mis.netlify.app/pages/notifications](https://frontend-mis.netlify.app/pages/notifications)
+1. **Homepage** – [Homepage](https://frontend-mis.netlify.app/)
+2. **Register** – [Register](https://frontend-mis.netlify.app/pages/register)
+3. **Login** – [Login](https://frontend-mis.netlify.app/pages/login.html)
+4. **Order** – [Order](https://frontend-mis.netlify.app/pages/order)
+5. **Products** – [Products](https://frontend-mis.netlify.app/pages/products)
+6. **Notifications** – [Notifications](https://frontend-mis.netlify.app/pages/notifications)
 
 ## ✅ Status
-
 - ✅ UI development completed  
 - 🔄 Microservice integration pending  
 
 ## 📁 Tech Stack
-
 - HTML  
 - CSS  
 - JavaScript  
